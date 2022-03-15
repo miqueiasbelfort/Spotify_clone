@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    display: flex;
+}
+
+/* Header */
+.logo{
+    width: 130px;
+}
+.navbarHeader{
+    width: 240px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    gap: 35px;
+    background: #000;
+}
+.section1OfHeader{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 14px;
+}
+.section2OfHeader{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 14px;
+}
+.iconOfbooks{
+    display: flex;
+    width: 20px;
+    height: 20px;
+    gap: 5px;
+}
+.columnBook{
+    width: 1px;
+    height: 100%;
+    background: #fff;
+}
+.lastColumn{
+    margin-left: 3px;
+    transform: rotate(-20deg);
+}
+.addInPlaylist i{
+    font-size: 25px;
+}
+.icon{
+    width: 25px;
+}
+.searchIcon{
+    width: 20px;
+}
+.navbarPages{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.homePage{
+    cursor: pointer;
+}
+.trasparent{
+    filter: opacity(70%);
+    transition: all .2s;
+    cursor: pointer;
+}
+.trasparent:hover{
+    filter: opacity(100%);
+}
+.footerOfHeader{
+    margin-top: 150px;
+}
+.footerOfHeader p{
+    font-size: 10px;
+    margin-top: 5px;
+    filter: opacity(70%);
+    cursor: pointer;
+    transition: all .2s;
+}
+.footerOfHeader p:hover{
+    filter: opacity(100%);
+    text-decoration: underline;
+}
+
+/* Main */
+.navbarTop{
+    width: 100%;
+    height: 65px;
+    background: #101010;
+    position: fixed;
+}
